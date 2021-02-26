@@ -26,7 +26,35 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.section-title h1{
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #302d2d;
+    margin: 0 0 10px;
+    position: relative;
+}
+.section-title h4{
+    font-size: 15px;
+    color: #423940;
+    position: relative;
+    padding-bottom: 14px;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
 .navigation-bar{
     display: none;
 }
@@ -146,7 +174,7 @@ header .nav-bar ul li a.active::before
 }
 .homeintro .sub-intro{
     text-align: center;
-    padding-left:450px;
+    padding-left:500px;
     font-size: 1rem;
 }
 .homeintro .mouse-intro{
@@ -156,4 +184,34 @@ header .nav-bar ul li a.active::before
     text-align: center;
     padding-left:450px;
     padding-top: 180px;
+}
+/* service */
+.container-2{
+    max-width: auto;
+    margin: auto;
+    
+}
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-title-2{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top:150px;
+    margin-bottom: 100px;
+}
+.section-title-2 h1{
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    position: relative;
+}
+.section-title-2 h4{
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    padding-bottom: 14px;
 }
