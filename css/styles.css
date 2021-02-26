@@ -18,6 +18,15 @@ body{
     margin: 0;
 }
 
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .navigation-bar{
     display: none;
 }
@@ -26,7 +35,7 @@ body{
 /* HEADER */
 header{
     top: 0;
-    background: #fff;
+    background: #ffff;
     position:sticky;
     left: 0;
     right: 0;
@@ -64,7 +73,7 @@ header .nav-bar ul li a{
     position: relative;
 }
 header .fixed .nav-bar ul li a{
-    color: #fff;
+    color: #ffff;
 }
 header .nav-bar ul li a::before{
     content: '';
@@ -92,7 +101,7 @@ header .nav-bar ul li a.active::before
     max-width: 100%;
     height: 100vh;
     position: relative;
-    color: #fff;
+    color: #ffff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -111,16 +120,24 @@ header .nav-bar ul li a.active::before
     widows: 100%;
     opacity: .9;
 }
-.homeintro .title-intro{
-    color: #fff;
+.homeintro .image-intro{
+    color: #ffff;
     font-weight: 600;
     font-size: 3rem;
     text-align: center;
     padding-left:450px;
-    padding-top: 350px;
+    padding-top: 200px;
+}
+.homeintro .title-intro{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    padding-left:450px;
+    padding-top: 30px;
 }
 .homeintro .title-intro-2{
-    color: #fff;
+    color: #ffff;
     font-weight: 600;
     font-size: 3rem;
     text-align: center;
@@ -131,4 +148,12 @@ header .nav-bar ul li a.active::before
     text-align: center;
     padding-left:450px;
     font-size: 1rem;
+}
+.homeintro .mouse-intro{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    padding-left:450px;
+    padding-top: 180px;
 }
