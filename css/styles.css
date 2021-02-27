@@ -214,4 +214,25 @@ header .nav-bar ul li a.active::before
     color: #fff;
     position: relative;
     padding-bottom: 14px;
+} */
+/* what we do section */
+.what-we-do{
+    min-height: 120vh;
+    background-color: #eee;
+}
+.what-we-do .what-we-do-item{
+    flex: 0 0 33.33%;
+    -moz-flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 10px;
+    display: flex;
+}
+.what-we-do .what-we-do-item .what-we-do-inner-item{
+   
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all .5s ease;
+    width: 100%;
 }
