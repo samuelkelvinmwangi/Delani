@@ -1,12 +1,12 @@
-// var a;
-// function show_hide(){
+var a;
+function show_hide(){
 
-//     if(a==1){
-//         document.getElementById("1").style.display="inline";
-//         return a=0;
-//     }
-//     else{
-//         document.getElementById("1").style.display="none";
-//         return a=1;
-//     }
-// }
+    if(a==1){
+        document.getElementById("1").style.display="inline";
+        return a=0;
+    }
+    else{
+        document.getElementById("1").style.display="none";
+        return a=1;
+    }
+}
