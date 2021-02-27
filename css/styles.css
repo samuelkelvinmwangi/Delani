@@ -277,3 +277,15 @@ header .nav-bar ul li a.active::before
 .portfolio .portfolio-inner-itm .portfolio-img img{
     width: 100%;
 }
+.portfolio .portfolio-item .portfolio-info{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    padding-top: 100px;
+    transition: all .5s ease;
+    opacity: 0;
+}
