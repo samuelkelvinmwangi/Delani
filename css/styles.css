@@ -368,7 +368,11 @@ footer .social-media{
     max-width: 100%;
     text-align: center;
     padding: 5px;
+}
+footer .social-media a{
     color: #fff;
     text-decoration: none;
     display: inline-block;
+    margin: 0.12px;
+    transition: all .5s ease;
 }
