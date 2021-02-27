@@ -241,7 +241,7 @@ header .nav-bar ul li a.active::before
 /* START OF PORTFOLIO SECTION */
 .portfolio{
     background-color: #fdf9ff;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     min-height: 120vh;
 }
 .portfolio .portfolio-items{
@@ -273,4 +273,7 @@ header .nav-bar ul li a.active::before
     overflow: auto;
     position: relative;
     cursor: pointer;
+}
+.portfolio .portfolio-inner-itm .portfolio-img img{
+    width: 100%;
 }
