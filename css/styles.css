@@ -236,3 +236,11 @@ header .nav-bar ul li a.active::before
     transition: all .5s ease;
     width: 100%;
 }
+/* END OF WHAT WE DO SECTION */
+
+/* START OF PORTFOLIO SECTION */
+.portfolio{
+    background-color: #fdf9ff;
+    padding-bottom: 50px;
+    min-height: 120vh;
+}
