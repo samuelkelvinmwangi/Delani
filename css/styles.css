@@ -355,3 +355,20 @@ header .nav-bar ul li a.active::before
 ::placeholder{
     color: #fff;
 }
+
+/* CONTACT SECTION ENDS HERE */
+
+/* FOOTER SECTION STARTS */
+
+footer{
+   padding: 40px 15px; 
+}
+footer .social-media{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
