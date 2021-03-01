@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DELANI</title>
     <link rel="stylesheet"href=".//css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
 </head>
 <body>
+
 <!--HEADER STARTS-->
+
     <header>
          <div class="container">
              <div class="row">
@@ -26,7 +30,7 @@
                         <li><a href="#home" class="active">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#what we do">What we do</a></li>
+                        <li><a href="#what-we-do">What we do</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -34,9 +38,11 @@
              </div>
          </div>
     </header>
+
 <!--HEADER ENDS-->
 
 <!--HOME STARTS HERE-->
+
 <section id="home" class="homeintro" style="background-image: url(./Images/Background/h_img.jpg);">
 <div class="overlay-intro"></div>
 <div class="intro-content-in">
@@ -46,16 +52,17 @@
             <h1 class="title-intro">WELCOME</h1>
             <h2 class="title-intro-2">TO DELANI STUDIO</h2>
             <h5 class="sub-intro">AMAZING PEOPLE ARE MAKING AMAZING DESIGHNS IN A FUN ENVIRONMENT</h5>
-            <h1 class="mouse-intro"><img src="./Images/Background/mouse_click.png" alt="mouse click"></h1>
+            <a href="#about"><h1 class="mouse-intro"><img src="./Images/Background/mouse_click.png" alt="mouse click"></h1></a>
         </div>
     </div>
 </div>
 </section>
+
 <!--HOME ENDS HERE-->
 
 <!--ABOUT SECTION STARTS-->
 
-<div class="container">
+<div class="container" id="about">
     <div class="row">
         <div class="section-title text-center">
             <h1>ABOUT US</h1>
@@ -70,7 +77,7 @@
 
 <!--SERVICES STARTS HERE-->
     
-<div class="container-2" style="background-image: url(./Images/Background/s_image.jpg);">
+<div class="container-2" id="services" style="background-image: url(./Images/Background/s_image.jpg);">
     <div class="row-2">
         <div class="section-title-2 text-center">
             <h1>SERVICES</h1>
@@ -96,27 +103,27 @@
             <!--WHAT WE DO ITEMS START HERE-->
             <div class="what-we-do-item">
                 <div class="what-we-do-inner-item">
-                    <div class="icon"><i><img src="./Images/Icons/Service icons/design_icon.png" alt="design icon"></i></div>
-                        <h4 onclick="show_hide()">DESIGN</h4>
-                        <div id="1"><h4>DESIGN</h4>
+                    <div class="icon" id="design-image"><i><img src="./Images/Icons/Service icons/design_icon.png" alt="design icon"></i></div>
+                        <h4>DESIGN</h4>
+                        <div id="1">
                         <p>Our design practice offers a full range of services including brand strategy, interaction and vertual design and user experience testing.</p>
                         <p>Through out your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p></div>
                 </div>
             </div>
             <div class="what-we-do-item">
                 <div class="what-we-do-inner-item">
-                    <div class="icon"><i><img src="./Images/Icons/Service icons/dev_icon.png" alt="development icon"></i></div>
-                        <h4 onclick="show_hide()">DEVELOPMENT</h4>
-                       <div id="2"><h4>DEVELOPMENT</h4>
+                    <div class="icon" id="development-image"><i><img src="./Images/Icons/Service icons/dev_icon.png" alt="development icon"></i></div>
+                        <h4>DEVELOPMENT</h4>
+                       <div id="2">
                         <p>All engineers are fluent in the latest enterprice, mobile and web development technologies.</p>
                         <p>They colaborate with your team to write and improve code on a daily basis, using proven practices such as test-driven development and pair programing.</p></div> 
                 </div>
             </div>
             <div class="what-we-do-item">
                 <div class="what-we-do-inner-item">
-                    <div class="icon"><i><img src="./Images/Icons/Service icons/product_icon.png" alt="product icon"></i></div>
-                        <h4 onclick="show_hide()">PRODUCT MANAGEMENT</h4>
-                       <div id="3"><h4>PRODUCT MANAGEMENT</h4>
+                    <div class="icon" id="pm-image"><i><img src="./Images/Icons/Service icons/product_icon.png" alt="product icon"></i></div>
+                        <h4>PRODUCT MANAGEMENT</h4>
+                       <div id="3">
                         <p>Planning and development is relative. Because we are constantly coding and testing. The products we build are always ready to go live.</p>
                         <p>This relative process allows for changes as business requirements evolve.</p></div>
                 </div>
@@ -125,10 +132,154 @@
     </div>
 </section>
 
+<!--WHAT WE DO SECTION ENDS HERE-->
 
+<!--PORTFOLIO SECTION STARTS HERE-->
 
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center">
+                <h1>PORTFOLIO</h1>
+            </div>
+        </div>
+        <div class="row">
+
+            <!--PORTFOLIO ITEMS START HERE-->
+            
+            <div class="portfolio-items">
+                <div class="portfolio-inner-itm">
+                    <div class="portfolio-img">
+                        <img src="./Images/Portfolio/work1.jpg" alt="portfolio" id="i1">
+                        <p class="text" id="w1">Project Management</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PORTFOLIO ITEMS END HERE-->
+
+            <div class="portfolio-items">
+                <div class="portfolio-inner-itm">
+                    <div class="portfolio-img">
+                        <img src="./Images/Portfolio/work2.jpg" alt="portfolio" id="i2">
+                        <p class="text" id="w2">Development</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PORTFOLIO ITEMS END HERE-->
+
+            <div class="portfolio-items">
+                <div class="portfolio-inner-itm">
+                    <div class="portfolio-img">
+                        <img src="./Images/Portfolio/work3.jpg" alt="portfolio" id="i3">
+                        <p class="text" id="w3">Design</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PORTFOLIO ITEMS END HERE-->
+
+            <div class="portfolio-items">
+                <div class="portfolio-inner-itm">
+                    <div class="portfolio-img">
+                        <img src="./Images/Portfolio/work4.jpg" alt="portfolio" id="i4">
+                        <p class="text" id="w4">Development</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PORTFOLIO ITEMS END HERE-->
+
+            <div class="portfolio-items">
+                <div class="portfolio-inner-itm">
+                    <div class="portfolio-img">
+                        <img src="./Images/Portfolio/work5.jpg" alt="portfolio" id="i5">
+                        <p class="text" id="w5">Project Management</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PORTFOLIO ITEMS END HERE-->
+
+            <div class="portfolio-items">
+                <div class="portfolio-inner-itm">
+                    <div class="portfolio-img">
+                        <img src="./Images/Portfolio/work6.jpg" alt="portfolio" id="i6">
+                        <p class="text" id="w6">Project Management</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PORTFOLIO ITEMS END HERE-->
+
+            <div class="portfolio-items">
+                <div class="portfolio-inner-itm">
+                    <div class="portfolio-img">
+                        <img src="./Images/Portfolio/work7.jpg" alt="portfolio" id="i7">
+                        <p class="text" id="w7">Design</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PORTFOLIO ITEMS END HERE-->
+
+            <div class="portfolio-items">
+                <div class="portfolio-inner-itm">
+                    <div class="portfolio-img">
+                        <img src="./Images/Portfolio/work8.jpg" alt="portfolio" id="i8">
+                        <p class="text" id="w8">Design</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--PORTFOLIO ITEMS END HERE-->
+        </div>
+    </div>
+</section>
+
+<!--PORTFOLIO SECTION ENDS HERE-->
+
+<!--CONTACT SECTION STARTS HERE-->
+
+<section id="contact" class="bg-light" style="background-image: url(./Images/Background/c_image.jpg);">
+    <h2>CONTACT US</h2>
+        <div class="form-container">
+            <form>
+                <div class="name">                  
+                    <input id="name" type="text" placeholder="Name.."><input id="email" type="email" placeholder="Email..">
+                </div>
+                <div class="form-group">                
+                    <textarea rows="8" placeholder="Enter Your Message Here"></textarea>
+                </div>
+                <input type="submit" value="Send Message" class="contact-btn">
+            </form>
+        </div>
+</section>
+
+<!--CONTACT SECTION ENDS HERE-->
+
+<!--Footer section starts here-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="social-media">
+                <a href="https://www.behance.net/"><i><img src="./Images/Icons/network  icons/behance.png" alt="benance"></i></a>
+                <a href="https://dribbble.com/"><i><img src="./Images/Icons/network  icons/dribble.png" alt="dribble"></i></a>
+                <a href="https://web.facebook.com/?_rdc=1&_rdr"><i><img src="./Images/Icons/network  icons/facebook.png" alt="facebook"></i></a>
+                <a href="https://www.flickr.com/explore"><i><img src="./Images/Icons/network  icons/flickr.png" alt="flickr"></i></a>
+                <a href="https://www.plus.net/"><i><img src="./Images/Icons/network  icons/g_plus.png" alt="g_plus"></i></a>
+                <a href="https://www.pinterest.com/"><i><img src="./Images/Icons/network  icons/pinterest.png" alt="pinterest"></i></a>
+                <a href="https://www.skype.com/en/"><i><img src="./Images/Icons/network  icons/skype.png" alt="skype"></i></a>
+                <a href="https://www.mixcloud.com/"><i><img src="./Images/Icons/network  icons/stumble_upon.png" alt="stumble_upon"></i></a>
+                <a href="https://twitter.com/?lang=en"><i><img src="./Images/Icons/network  icons/twitter.png" alt="twitter"></i></a>
+                <a href="https://www.youtube.com/?gl=KE"><i><img src="./Images/Icons/network  icons/you_tube.png" alt="youtube"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--END FOOTER-->
 </body>
-<script src=".//js/script.js"></script>
-<script src=".//js/bootstrap.js"></script>
-<script src=".//js/jquery-3.5.1.js"></script>
+<script src="./js/script.js"></script>
+<script src="./js/bootstrap.js"></script>
 </html>
