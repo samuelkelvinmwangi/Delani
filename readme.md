@@ -1,5 +1,5 @@
 # DELANI STUDIO
-#### {This is a web name finder for DELANI STUDIO}, {3rd March 2020}
+#### {This is a web development platform for DELANI STUDIO}, {3rd March 2020}
 #### By **{SAMUEL MWANGI}**
 ## Description
 {This is a website that offers a chance for the customer to access full desighn, development and project management services at Delani Studio }
