@@ -76,3 +76,17 @@ $(document).ready(function(){
             $("#w8").hide();
           });
     })
+
+    $(document).ready(function(){
+      $("#contact").submit(function(event){
+        var name = $("name").val();
+        var email =$("email").val();
+        var message =$("message").val();
+        if($("name").val(),$("email").val()){
+          alert (name + ",we have received your message. We appreciate your presence in Delani Studio.");
+        }
+        else {
+          alert ("please enter the details above!..Thank You")
+        }
+      })
+    })
